@@ -1,0 +1,126 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: rgba(128, 128, 128, 0.5); */
+  background: black;
+}
+
+.container {
+  /* border: 10px solid red; */
+  background: rgb(160, 160, 160);
+  width: 80%;
+  height: 90%;
+  padding: 20px;
+  display: block;
+  text-align: center;
+  align-content: center;
+  margin: 0px auto;
+  line-height: 50px;
+  margin-top: 20px;
+}
+
+.formSignIn {
+  /* padding-right: 50px; */
+  position: relative;
+  text-align: center;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* .icon {
+  background-color: none;
+  color: white;
+  position: absolute;
+  display: inline-block;
+  top: 20px;
+  left: 2px;
+  padding: 5px 2px;
+} */
+
+input {
+  background: none;
+  padding: 30px;
+  margin: 0 auto;
+  width: 100%;
+  border-bottom: 4px solid white;
+}
+
+.register {
+  text-align: center;
+  margin-top: 50px;
+}
+.register a {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  letter-spacing: 2px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+  font-weight: bolder;
+  font-size: 20px;
+  border: 3px solid brown;
+  background: white;
+  padding: 5px;
+  border-radius: 60px;
+
+  cursor: pointer;
+}
+
+input[type="text"],
+input[type="password"] {
+  color: black;
+  background: white;
+  border-radius: 40px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  border: 3px solid pink;
+}
+
+input[type="submit"] {
+  border: none;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+  letter-spacing: 2px;
+  background: white;
+  margin-top: 30px;
+  border-radius: 40px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: green;
+  color: white;
+  transition: 1s;
+}
+
+h1 {
+  color: rgba(196, 6, 6, 0.5);
+  font-family: cursive;
+  text-align: center;
+  margin: 0 auto;
+  width: 40%;
+  padding: 2px;
+}
+
+.empty {
+  width: 30%;
+  height: 2%;
+  border: 2px solid white;
+  text-align: center;
+  margin: 20px auto;
+  background: white;
+  border-radius: 20px;
+}
+
+@media screen and (min-width: 500px) {
+  .container {
+    width: 50%;
+    height: 70%;
+  }
+}

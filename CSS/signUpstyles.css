@@ -1,0 +1,142 @@
+* {
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  /* background: rgba(128, 128, 128, 0.5); */
+  background: black;
+}
+
+.container {
+  /* border: 10px solid red; */
+  background: rgb(160, 160, 160);
+  width: 80%;
+  height: 90%;
+  padding: 20px;
+  align-content: center;
+  margin: 0px auto;
+  line-height: 50px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.Home {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0;
+  border: none;
+  position: absolute;
+  top: 5px;
+  left: 3px;
+}
+
+.formInput {
+  padding-right: 50px;
+  position: relative;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.icon {
+  background-color: none;
+  color: white;
+  position: absolute;
+  display: inline-block;
+  top: 20px;
+  left: 2px;
+  padding: 5px 2px;
+  /* border: 2px solid green; */
+}
+
+input {
+  /* color: black; */
+  background: none;
+  padding: 30px;
+  margin: 0;
+  width: 100%;
+  /* border: none; */
+  /* border: 2px solid black; */
+  border-bottom: 4px solid white;
+}
+
+.social-links {
+  background-color: none;
+  color: rgba(219, 12, 12, 0.5);
+  padding: 25px;
+  border: 2px solid white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+
+.social {
+  border: none;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 5px;
+  margin: 10px auto;
+}
+
+p {
+  text-align: center;
+  color: rgba(219, 12, 12, 0.5);
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.Returning-user {
+  color: white;
+}
+
+.logIn {
+  text-align: center;
+}
+.logIn a {
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  background: honeydew;
+  padding: 15px;
+  /* outline: 3px solid rgba(219, 12, 12, 0.5); */
+  outline-offset: -5px;
+  border-radius: 50px;
+  border: 3px solid rgba(219, 12, 12, 0.5);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding-left: 45px;
+  color: black;
+}
+
+input[type="submit"] {
+  border: none;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Courier, monospace;
+  letter-spacing: 2px;
+  background: white;
+  margin-top: 50px;
+  border-radius: 40px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background: green;
+  color: white;
+  transition: 1s;
+}
+
+@media screen and (min-width: 500px) {
+  .container {
+    width: 50%;
+    height: 70%;
+  }
+}
